@@ -7,7 +7,7 @@ def func(arr):
     even = [arr[i] for i in range(len(arr)) if i % 2 == 0]
     odd = [arr[i] for i in range(len(arr)) if i % 2 != 0]
     return even + odd
-#Сложность O(n)
+#O(n)
 
 
 sizes = [10000, 20000, 30000, 40000, 50000]
